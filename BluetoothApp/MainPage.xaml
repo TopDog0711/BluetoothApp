@@ -1,4 +1,6 @@
 ﻿<Page
+    HorizontalContentAlignment="Stretch"
+    VerticalContentAlignment="Stretch"
     x:Class="BluetoothApp.MainPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -6,9 +8,10 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Width="584" Height="294">
+    <ScrollViewer HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" VerticalScrollMode="Enabled" HorizontalScrollMode="Disabled"   Margin="0,0,0,0">
+        <TextBox HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" x:Name="OutputBox" TextWrapping="Wrap" Text=""   />
 
-    <Grid>
+    </ScrollViewer>
 
-    </Grid>
 </Page>
